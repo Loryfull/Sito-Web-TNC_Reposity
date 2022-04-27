@@ -1,0 +1,90 @@
+body{ background: gainsboro;}
+h1{color: #16425b;text-align: center;}
+.logo{text-align: left; margin-top: 10px;height: 50px;width: 50px}
+
+.header{background-color: #2f6690;margin: -8px;}
+.header__logo{color: #81c3d7; float: left;}
+.header__menu{float: right;}
+.header__menu__item{display: inline-block}
+.header__menu__item a{color: #000; border: 2px solid #81c3d7; display:block; padding: 7px; margin-top: -10px;}
+.header__menu__item a:hover{background: #3a7ca5;}
+.header__icon-bar span{display: block;height: 3px;width: 3px;}
+
+.search-box {
+  background-color: #f6f6f6;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 8px;
+  width: 500px;
+  margin-top: -55px;
+  margin-left: 10px;
+}
+
+.search-box #search {
+  border: 1px solid #DDD;
+  -webkit-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+  -moz-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+  box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #999;
+  float: left;
+  font: 16px Lucida Sans, Trebuchet MS, Tahoma, sans-serif;
+  box-sizing: border-box;
+  height: 42px;
+  padding: 10px;
+  width: 490px;
+}
+
+.search-box #search:-moz-placeholder,
+.search-box #search:-ms-input-placeholder,
+.search-box #search::-webkit-input-placeholder {
+  color: #999;
+  font-weight: normal;
+}
+
+.search-box #submit {
+  background-color: #00994D;
+  border: 1px solid #008040;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #FFF;
+  cursor: pointer;
+  height: 42px;
+  float: right;
+  font: 15px Arial, Helvetica;
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+  width: 100px;
+}
+
+.search-box #submit:hover,
+.search-box #submit:focus,
+.search-box #submit:active {
+  background-color: #00B359;
+}
+
+
+
+
+
+
+
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */
